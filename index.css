@@ -1,0 +1,11 @@
+#score {
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 3em;
+}
+body {
+    font-family: "Comic Sans MS";
+}
