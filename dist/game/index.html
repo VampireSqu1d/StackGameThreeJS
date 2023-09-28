@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>body {
+  margin: 0;
+}
+
+</style>
+
+    <link rel="stylesheet" href="index.b880232a.css" type="text/css">
+</head>
+<body>
+    <!-- botones de la UI-->
+    <!--<div id="pausa"><img src="assets/gear-svgrepo-com.svg" height="32" aria-hidden="true"></div> -->
+    <div id="reset"><img class="center" src="arrow-cw-svgrepo-com.63949872.svg" aria-hidden="true"></div>
+    <div id="volume" style="display: none" class="volumeButtons show not-muted"><img class="center" src="volume-up-svgrepo-com.64b3c0d1.svg" aria-hidden="true"></div>
+    <div id="volumeMuted" style="display: none" class="volumeButtons  muted"><img class="center" src="volume-off-svgrepo-com.3cfa3415.svg" aria-hidden="true"></div>
+
+    <!--<div id="optionsMenu">
+        <div id="volume-container">
+            <label>Volume:</label>
+            <input class="custom-input" type="range" min="0" max="1" step="any" value="0.8">
+        </div>
+    </div> -->
+    <!-- audios-->
+    <audio id="buttonSound" src="button-pressed-38129.2a3bc5b3.mp3"></audio>
+    <audio id="perfect" src="beep-6-96243.86a64268.mp3"></audio>
+    <audio id="gameSound" src="game-music-loop-15-153386.053f819b.mp3"></audio>
+    <audio id="tapSound" src="axe-slash-1-106748.c5994f82.mp3"></audio>
+    <audio id="gameOver" src="moody-blip-43107.127fcfd2.mp3"></audio>
+
+    <!--labels-->
+    <div id="score">0</div>
+    <div id="tapLabel">Tap to play!</div>
+    <!-- loads the game script-->
+    <script src="index.63667bdf.js" type="module"></script>
+
+</body>
+</html>
